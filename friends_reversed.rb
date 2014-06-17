@@ -8,7 +8,7 @@ while still_adding_friends
   response = gets.chomp.capitalize
 
   if response == ""
-    puts list_of_friends
+    puts list_of_friends.reverse
     still_adding_friends = false
   else list_of_friends << response
   end
